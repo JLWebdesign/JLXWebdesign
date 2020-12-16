@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #393967;
+}
+
+section h1 {
+  font-size: 3em;
+  color: #5FCDD1;
+  text-align: center;
+}
+
+section hr {
+  width: 3em;
+  height: 5px;
+  border-radius: 20px;
+  background: #5FCDD1;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #393967;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.2em 1.5em;
+}
+
+header .logo {
+  width: 6em;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav a {
+  margin-left: 1em;
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+}
+
+.home {
+  background-color: #393967;
+  padding: 0 1.5em;
+}
+
+.home .headings {
+  position: relative;
+  text-align: center;
+}
+
+.home .headings h1 {
+  font-size: 1.5em;
+  color: white;
+  line-height: 1.3em;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.home .headings p {
+  color: white;
+  line-height: 1.3em;
+  text-align: center;
+  padding-top: 1em;
+  font-size: 13px;
+}
+
+.home .headings a {
+  color: white;
+  display: inline-block;
+  font-size: 13px;
+  padding: .5em 1.5em;
+  background-color: #FF39E1;
+  margin: 2em  0 5em 0;
+  border-radius: 15px;
+}
+
+.home .illu {
+  display: none;
+}
+
+.home .points {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 5em;
+}
+
+.skills {
+  padding: 0 1.5em;
+}
+
+.skills .skillcards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2em;
+}
+
+.skills .skillcards .card {
+  background-color: #7179D9;
+  margin-bottom: 2em;
+  border-radius: 35px;
+  text-align: center;
+  padding: .8em 1.7em 2em 1.7em;
+}
+
+.skills .skillcards .card .ui {
+  width: 60px;
+}
+
+.skills .skillcards .card .fr {
+  width: 120px;
+}
+
+.skills .skillcards .card .ux {
+  width: 60px;
+}
+
+.skills .skillcards .card h1 {
+  font-size: 1.5em;
+  color: white;
+  margin-top: -.8em;
+}
+
+.skills .skillcards .card p {
+  color: white;
+  line-height: 1.3em;
+  margin-top: 1em;
+}
+
+.work {
+  padding: 0 1.5em;
+}
+
+.work .workcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2em;
+}
+
+.work .workcontainer .workbox {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.work .workcontainer .workbox .worktext .info {
+  color: #5B64CE;
+}
+
+.work .workcontainer .workbox .worktext h1 {
+  font-size: 1.7em;
+  color: white;
+  margin-top: .5;
+}
+
+.work .workcontainer .workbox .worktext p {
+  color: white;
+  line-height: 1.3em;
+  margin-top: 1em;
+  font-size: 15px;
+}
+
+.work .workcontainer .workbox .worktext a {
+  color: white;
+  display: inline-block;
+  font-size: 13px;
+  padding: .5em 2em;
+  background-color: #2C9FA3;
+  margin: 2em  0  0;
+  border-radius: 15px;
+}
+
+.work .workcontainer .workbox img {
+  width: 17em;
+}
+
+.contact {
+  padding: 0 1.5em;
+  text-align: center;
+}
+
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2em;
+}
+
+.contact form input {
+  margin-bottom: 10px;
+  background-color: #202033;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: white;
+  padding: .8em;
+  border-radius: 20px;
+}
+
+.contact form input::-webkit-input-placeholder {
+  color: white;
+}
+
+.contact form input:-ms-input-placeholder {
+  color: white;
+}
+
+.contact form input::-ms-input-placeholder {
+  color: white;
+}
+
+.contact form input::placeholder {
+  color: white;
+}
+
+.contact form textarea {
+  margin-bottom: 10px;
+  background-color: #202033;
+  outline: none;
+  border: none;
+  resize: none;
+  height: 15em;
+  color: white;
+  font-size: 1em;
+  padding: .8em;
+  border-radius: 20px;
+}
+
+.contact form textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+.contact form textarea:-ms-input-placeholder {
+  color: white;
+}
+
+.contact form textarea::-ms-input-placeholder {
+  color: white;
+}
+
+.contact form textarea::placeholder {
+  color: white;
+}
+
+.contact .submit {
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  padding: .6em 3.5em;
+  background-color: #FF39E1;
+  margin: 1em  0 5em 0;
+  border: none;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    padding: .5em 2.5em;
+  }
+  .home {
+    padding: 0 2.5em;
+  }
+  .home .headings {
+    padding: 0 2em;
+  }
+  .skills {
+    padding: 0 2.5em;
+  }
+  .work {
+    padding: 0 2.5em;
+  }
+  .contact {
+    padding: 0 2.5em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  header {
+    padding: .5em 4em;
+  }
+  section h1 {
+    font-size: 3em;
+    color: #5FCDD1;
+    text-align: left;
+  }
+  section hr {
+    width: 3em;
+    height: 5px;
+    border-radius: 20px;
+    background: #5FCDD1;
+    margin: unset;
+  }
+  .home {
+    padding: 0 4em;
+  }
+  .home .headings {
+    padding: 0;
+    text-align: left;
+  }
+  .home .headings h1, .home .headings p {
+    text-align: left;
+    padding-right: 12em;
+  }
+  .skills {
+    padding: 0 4em;
+  }
+  .skills .skillcards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 900px;
+  }
+  .skills .skillcards .card {
+    padding: .8em .5em 2em .5em;
+    max-width: 250px;
+  }
+  .skills .skillcards .card h1 {
+    font-size: 1.3em;
+    text-align: center;
+  }
+  .work {
+    padding: 0 4em;
+  }
+  .work .workcontainer .workbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 4em;
+  }
+  .work .workcontainer .workbox .worktext {
+    text-align: left;
+    padding-right: 10em;
+  }
+  .contact {
+    padding: 0 4em;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  header {
+    padding: 1em 7em;
+  }
+  .home {
+    padding: 0 7em;
+  }
+  .skills {
+    padding: 0 7em;
+  }
+  .work {
+    padding: 0 7em;
+  }
+  .contact {
+    padding: 0 7em;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  header {
+    padding: 1em 15em;
+  }
+  header .logo {
+    width: 10em;
+  }
+  header nav li a {
+    font-size: 1em;
+    margin-left: 2.5em;
+  }
+  .sech1 {
+    margin-top: 2em;
+  }
+  .home {
+    padding: 0 15em;
+  }
+  .skills {
+    padding: 0 15em;
+  }
+  .work {
+    padding: 0 15em;
+  }
+  .contact {
+    padding: 0 15em;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .home .headings {
+    padding-right: 25em;
+  }
+  .home .headings h1 {
+    font-size: 2.2em;
+  }
+  .work .workcontainer .workbox .worktext {
+    text-align: left;
+    padding-right: 30em;
+  }
+  .work .workcontainer .workbox img {
+    width: 25em;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  header {
+    padding: 1em 20em;
+  }
+  header .logo {
+    width: 10em;
+  }
+  header nav li a {
+    font-size: 1em;
+    margin-left: 2.5em;
+  }
+  .sech1 {
+    margin-top: 2em;
+  }
+  .home {
+    padding: 0 20em;
+  }
+  .skills {
+    padding: 0 20em;
+  }
+  .work {
+    padding: 0 20em;
+  }
+  .contact {
+    padding: 0 20em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
